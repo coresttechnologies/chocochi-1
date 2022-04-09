@@ -21,7 +21,7 @@ const Footer = () => {
                 <br />
                 <a href='tel:+91 7909102588'>+91 7909102588</a>
             </div>
-            <div>
+            <div className='last-one'>
                 <h3>Social Media</h3>
                 <div className='social-media'>
                     <img src={igImg} alt="" />

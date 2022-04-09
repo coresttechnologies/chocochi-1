@@ -6,13 +6,15 @@ const About = () => {
   return (
     <div className="about">
       <div className="about-page-background"></div>
+      <h1>ABOUT US</h1>
       <div className="about-page-box">
         <div className="image-container">
           <img src={aboutImg} alt="" />
         </div>
         <div className="content-container">
-          <p>n publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.
-           <br /> <span>Mission</span> n publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying</p>
+          <p> <b>CHOCOCHI</b>  is a cafe based premium chocolate concept under MABCO VENTURES consisting of three founders Muhamed Basheer,Ashraf Kammili and Musthafa Pilassery </p>
+          <p> <span>Our Mission - </span> To be the best café based chocolate Artisans in India, Middle East and Africa</p>
+          <p> <span>Our Vision - </span> To deliver the best ‘Chi’ (The Vital Life Energy) uniting the Body, Mind and Spirit out of Premium Chocolate Blends globally</p>
         </div>
       </div>
       <BackgroundOval

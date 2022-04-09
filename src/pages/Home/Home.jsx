@@ -1,6 +1,6 @@
 import React from 'react'
 import About from '../../components/about/About'
-import BackgroundOval from '../../components/BackgroundOval/BackgroundOval'
+import Footer from '../../components/footer/Footer'
 import FuturePlans from '../../components/future plans/FuturePlans'
 import Hero from '../../components/Hero/Hero'
 import HighLight from '../../components/highlight/HighLight'
@@ -15,6 +15,7 @@ const Home = () => {
       <TeamLead/>
       <FuturePlans/>
       <HighLight/>
+      <Footer/>
     </div>
   )
 }

@@ -12,6 +12,7 @@ body{
 }
 h1{
   font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
 }
 p{
   font-family: 'Montserrat', sans-serif;

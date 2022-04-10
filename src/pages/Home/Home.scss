@@ -420,16 +420,18 @@
     .image-container{
       grid-template-columns:1fr;
       grid-template-rows:1fr 1fr 1fr;
+      justify-items: center;
     }
   }
   .home-page .footer .footer-container{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
   }
 }
-@media only screen and (min-width:1360px) {
+@media only screen and (min-width:1500px) {
   .home-page .about {
-      padding:100px calc((100vw - 1150px)/2);
+      padding:100px calc((100vw - 1350px)/2);
       .about-page-box{
         border-radius: 10px;
       }

@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
-import heroImg from '../../Images/heroImg.avif'
+import heroImg from '../../Images/heroImg.png'
 import BackgroundOval from '../BackgroundOval/BackgroundOval'
 
 const Hero = () => {

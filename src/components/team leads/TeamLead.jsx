@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../../Images/aboutImg.png'
+import img1 from '../../Images/heroImg.png'
 
 const TeamLead = () => {
   return (

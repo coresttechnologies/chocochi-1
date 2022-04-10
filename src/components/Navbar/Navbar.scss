@@ -12,6 +12,10 @@
         padding:0 calc((100vw - 1150px)/2) !important;
     }
     color: white;
+    .logo{
+        width: 150px;
+        object-fit: cover;
+    }
 }
 .res-navbar{
     position: absolute;
@@ -47,5 +51,10 @@
 @media only screen and (max-width:768px) {
     .navbar svg{
         display: block;
+    }
+}
+@media only screen and (max-width:640px) {
+    .navbar .logo{
+        width: 100px;
     }
 }

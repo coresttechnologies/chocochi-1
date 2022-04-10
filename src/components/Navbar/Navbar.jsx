@@ -2,13 +2,14 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.scss'
 import ResponsiveNavbar from './ResponsiveNavbar'
+import logo from '../../Images/logo.png'
 
 const Navbar = ({ padding }) => {
   const [nav, setNav] = useState(false)
   return (
     <div style={{ paddingLeft: padding, paddingRight: padding }} className='navbar'>
       <div className="logo">
-        <h1>LOGO</h1>
+        <img className='logo' src={logo} alt='logo'/>
       </div>
       <div className="nav-items">
         <Link to={"/"}> <p>Home</p></Link>

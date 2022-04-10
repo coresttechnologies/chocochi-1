@@ -13,7 +13,7 @@ const Footer = () => {
                 <p>Products</p>
                 <p>Contact us</p>
             </div>
-            <div>
+            <div className='second-div'>
                 <h3>Address</h3>
                 <p>Opposite Govinda theater, Edappal, </p>
                 <p>679582, Kerala,  India</p>

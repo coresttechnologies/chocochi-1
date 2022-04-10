@@ -445,10 +445,12 @@
     .last-one{
       width: 100%;
     }
-    .second-div{
-      margin-top: 30px;
-      margin-bottom: 30px;
-    }
+  }
+}
+@media only screen and (max-width:440px) {
+  .home-page .footer .footer-container .second-div{
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 @media only screen and (min-width:1500px) {

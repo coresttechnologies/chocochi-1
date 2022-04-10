@@ -5,7 +5,7 @@ const TeamLead = () => {
   return (
     <div className='team-lead'>
         <h1>Our team leads</h1>
-        <div className="image-container">
+        <div className="image-container-teamlead">
             <div>
                 <img src={img1} alt="" />
                 <p>Muhamed Basheer</p>

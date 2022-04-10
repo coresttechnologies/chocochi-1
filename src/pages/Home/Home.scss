@@ -47,7 +47,7 @@
         @media only screen and (min-width:1400px) {
           padding-right: calc((100vw - 1150px)/2);
         }
-        img{
+        .hero-img{
             width: 28vw;
             height: 28vw;
             object-fit: cover;
@@ -89,7 +89,7 @@
         z-index: 9;
         display: grid;
         grid-template-columns: 300px 1fr;
-        .image-container{
+        .image-container-about{
           width: 100%;
           height: 100%;
           position: relative;
@@ -136,7 +136,7 @@
       letter-spacing: 1px;
       text-decoration: underline;
     }
-    .image-container{
+    .image-container-teamlead{
       width: auto;
       height: auto;
       grid-gap: 30px;
@@ -319,7 +319,7 @@
     grid-template-columns: 1fr;
     border-radius: 10px;
     padding: 50px 30px;
-    .image-container{
+    .image-container-about{
       display: none;
     }
     .content-container{
@@ -331,7 +331,7 @@
     h1{
       font-size: 30px;
     }
-    .image-container img {
+    .image-container-teamlead img {
       width: 150px;
       height: 150px;
     }
@@ -369,7 +369,7 @@
       place-items: inherit;
       justify-items: center;
       grid-row-start: 1;
-      img{
+      .hero-img{
         width: 90%;
         height: 30vh;
         min-height: 300px;
@@ -393,7 +393,7 @@
     padding: 10px;
     padding-bottom: 50px;
     grid-gap: 30px;
-    .image-container{
+    .image-container-teamlead{
       // grid-template-columns:1fr;
       // grid-template-rows:1fr 1fr 1fr;
     }
@@ -417,7 +417,7 @@
 }
 @media only screen and (max-width:640px) {
   .home-page .team-lead {
-    .image-container{
+    .image-container-teamlead{
       grid-template-columns:1fr;
       grid-template-rows:1fr 1fr 1fr;
       justify-items: center;

@@ -9,9 +9,26 @@
     align-items: center;
     padding: 0 150px;
     @media only screen and (min-width:1400px) {
-        padding:0 calc((100vw - 1150px)/2);
-      }
+        padding:0 calc((100vw - 1150px)/2) !important;
+    }
     color: white;
+}
+.res-navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    display: grid;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    z-index: 99999;
+    transform: translateY(-100%);
+    grid-gap: 20px;
+    transition: transform .5s ease;
+    svg{
+        justify-self: end;
+    }
 }
 .nav-items{
     display: grid;
@@ -23,4 +40,12 @@
 }
 .nav-items a{
     text-decoration: none;
+}
+.navbar svg{
+    display: none;
+}
+@media only screen and (max-width:768px) {
+    .navbar svg{
+        display: block;
+    }
 }

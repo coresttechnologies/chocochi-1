@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import heroImg from '../../Images/heroImg.png'
 import BackgroundOval from '../BackgroundOval/BackgroundOval'
 
-const Hero = () => {
+const Hero = ({buttonHandler}) => {
   return (
     <div className="hero">
       <BackgroundOval/>      
@@ -17,7 +17,7 @@ const Hero = () => {
           aperiam dolorum doloribus. Nisi voluptatibus dolorem, ea consequuntur
           eum dolorum temporibus?
         </p>
-        <button>Let's Start</button>
+        <button onClick={buttonHandler}>Let's Start</button>
       </div>
       <div className="right-side">
           <img className="hero-img" src={heroImg} alt="" />

@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import aboutImg from "../../Images/aboutImg.png";
 import BackgroundOval from "../BackgroundOval/BackgroundOval";
 
-const About = () => {
+const About = ({setValue}) => {
+  const about = useRef()
+  useEffect(() => {
+    setValue(about.current)
+  },[])
+
   return (
-    <div className="about">
+    <div ref={about} className="about">
       <div className="about-page-background"></div>
       <h1>ABOUT US</h1>
       <div className="about-page-box">

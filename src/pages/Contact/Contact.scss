@@ -1,0 +1,207 @@
+.contact {
+    height: 100vh;
+    width: auto;
+    display: grid;
+    place-items: center;
+    padding: 100px 0;
+    background: #592E2D;
+    &-box {
+      width: 80vw;
+      height: 80vh;
+      overflow: hidden;
+      background: #000;
+      border-radius: 10px;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      &-titleandmap {
+        display: grid;
+        place-items: center;
+        grid-template-rows: 1fr 1fr;
+        &-title {
+          color: white;
+          display: grid;
+          width: 65%;
+          height: auto;
+          place-items: center;
+          h1 {
+            white-space: wrap;
+            font-size: 41px;
+            font-weight: normal;
+            text-align: center;
+            font-family: "Fredoka One";
+          }
+        }
+        &-map {
+          width: 75%;
+          height: 85%;
+          background: white;
+          border-radius: 5px;
+          overflow: hidden;
+          box-shadow: -5px 0px 30px 0px rgb(0, 0, 0);
+        }
+      }
+  
+      &-form {
+        background: #C7A08A;
+        border-radius: 10px;
+        box-shadow: -5px 0px 30px 0px rgb(0, 0, 0);
+        display: grid;
+        place-items: center;
+         form {
+          height: 80%;
+          width: 80%;
+          display: grid;
+          place-self: center;
+          grid-gap: 8px;
+          grid-template-columns: 50% 50%;
+          grid-template-rows: 1fr 1fr 6fr 1fr;
+          grid-template-areas:
+              "fname lname"
+              "email email"
+              "msg msg"
+              "btn btn";
+      
+          input,
+          textarea,
+          button {
+            border-radius: 6px;
+            font-size: 15px;
+            outline: none;
+            border: none;
+            font-family: "Poppins", sans-serif;
+          }
+          input,
+          textarea {
+            padding-left: 15px;
+            min-height: 30px;
+          }
+          textarea {
+            padding-top: 15px;
+            height: auto;
+            font-size: 20px;
+          }
+          .fname {
+            grid-area: fname;
+          }
+          .lname {
+            grid-area: lname;
+          }
+          .email {
+            grid-area: email;
+          }
+          .msg {
+            grid-area: msg;
+          }
+          .btn {
+            grid-area: btn;
+            font-weight: 700;
+            background:#000;
+            outline: none;
+            border: none;
+            min-height: 30px;
+            color: white;
+            box-shadow: 1px 1px 5px 0 #000;
+            &:hover{
+                box-shadow:2px 2px 10px 0 #000 ;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+
+
+
+  @media (min-width: 2000px) {
+    .contact-box-form form input,
+    .contact-box-form form textarea,
+    .contact-box-form form button {
+      font-size: 25px;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+
+    // the contact section for responsive
+    .contact {
+      height: auto;
+    }
+    .contact-box {
+      grid-template-columns: 1fr;
+      height: 95%;
+      grid-template-rows: 1fr 1.5fr;
+      .contact-box-titleandmap-map {
+        width: 50%;
+        height: 100%;
+        margin-bottom: 33px;
+      }
+    }
+  }
+  
+  // the footer section for responsive
+  
+  // its for the mobiles which width is less than 767
+  
+  @media (max-width: 767px) {
+    .contact {
+      height: auto;
+      .contact-box {
+        width: 100%;
+        &-titleandmap {
+          &-title {
+            h1 {
+              font-size: 34px;
+            }
+          }
+          &-map {
+            height: 75%;
+          }
+        }
+        .contact-box-form {
+          form {
+            grid-template-columns: 100%;
+            grid-template-rows: 30px 30px 30px 6fr 1fr;
+            grid-template-areas:
+              "fname "
+              "lname"
+              "email"
+              "msg "
+              "btn ";
+            // .fname {
+            // }
+            // .lname {
+            // }
+            // .email {
+            // }
+            // .msg {
+            // }
+            // .btn {
+            // }
+          }
+        }
+      }
+    }
+  }
+  
+  // its for the mobiles which width is less than 540
+  
+  @media (max-width: 540px) {
+    .contact-box {
+      width: 90%;
+    }
+  }
+  
+  
+  // its for the mobiles which width is less than 380
+  
+  @media (max-width: 380px) {
+    .contact-box{
+      border-radius:0px;
+    }
+    .contact-box-form{
+      border-radius:0px;
+    }
+  }
+  
+  // its for the mobiles which width is less than 320

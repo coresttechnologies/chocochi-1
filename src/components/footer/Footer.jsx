@@ -1,4 +1,5 @@
 import React from 'react'
+import './Footer.scss'
 import igImg from '../../Images/instagram.png'
 import fbImg from '../../Images/facebook.png'
 import wpImg from '../../Images/whatsapp.png'

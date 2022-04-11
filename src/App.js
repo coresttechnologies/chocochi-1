@@ -2,7 +2,8 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import { lazy, Suspense } from "react";
-const Products = lazy(() => import("./pages/Home/Products/Products"));
+import Contacts from "./pages/Contact/Contacts";
+const Products = lazy(() => import("./pages/Products/Products"));
 
 function App() {
   const styles = {
@@ -21,6 +22,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/products" element={<Products />} />
+            <Route path="/contact-us" element={<Contacts />} />
           </Routes>
         </div>
       </Suspense>

@@ -1,12 +1,11 @@
 import React from 'react'
-import img from '../../Images/heroImg.png'
 
-const Card = () => {
+const Card = ({img,item}) => {
   return (
     <div className='products-card'>
         <img src={img} alt="" />
         <div className="name">
-            <p>Cappicino</p>
+            <p>{item}</p>
         </div>
     </div>
   )

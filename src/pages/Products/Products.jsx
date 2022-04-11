@@ -3,22 +3,19 @@ import Footer from '../../components/footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
 import Card from '../../components/Products Card/Card'
 import './Products.scss'
+import {productsDetails} from './ProductsDetails'
 
 const Products = () => {
+  console.log(productsDetails);
   return (
     <>
       <div className='products-page'>
         <Navbar padding={"100px"} />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {
+          productsDetails.map(data=>(
+            <Card img={data.img} item={data.name}/>
+          ))
+        }
       </div>
       <Footer />
     </>

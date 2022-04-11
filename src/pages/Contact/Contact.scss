@@ -111,6 +111,13 @@
   }
   
 
+  @media only screen and (max-width: 640px) {
+    .contacts-page .navbar {
+      padding: 0 50px !important;
+    }
+  
+}
+
 
 
   @media (min-width: 2000px) {
@@ -159,6 +166,7 @@
           }
         }
         .contact-box-form {
+          border-radius: 0 0 10px 10px;
           form {
             grid-template-columns: 100%;
             grid-template-rows: 30px 30px 30px 6fr 1fr;
@@ -205,3 +213,5 @@
   }
   
   // its for the mobiles which width is less than 320
+
+ 

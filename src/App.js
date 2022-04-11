@@ -2,8 +2,8 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import { lazy, Suspense } from "react";
-import Contacts from "./pages/Contact/Contacts";
 const Products = lazy(() => import("./pages/Products/Products"));
+const Contacts = lazy(() => import( "./pages/Contact/Contacts"));
 
 function App() {
   const styles = {

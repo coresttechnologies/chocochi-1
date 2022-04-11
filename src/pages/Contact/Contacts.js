@@ -5,7 +5,7 @@ import Footer from "../../components/footer/Footer";
 
 const Contacts = () => {
   return (
-    <>
+    <div className="contacts-page">
       <Navbar padding={"100px"} />
       <div className="contact">
         <div className="contact-box">
@@ -68,7 +68,7 @@ const Contacts = () => {
         </div>
       </div>
       <Footer/>
-    </>
+    </div>
   );
 };
 

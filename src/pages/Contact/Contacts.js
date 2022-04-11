@@ -32,7 +32,8 @@ const Contacts = () => {
           </div>
           <div className="contact-box-form">
             {/* it for from */}
-            <form method="POST" name="curtain-house">
+            <form >
+            {/* <form method="POST" name="curtain-house"> */}
               <input
                 type="text"
                 name="firstname"

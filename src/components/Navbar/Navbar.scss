@@ -21,7 +21,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: #000;
+    background:#D1C3AB;
     display: grid;
     width: 100%;
     height: auto;
@@ -29,6 +29,7 @@
     z-index: 99999;
     transform: translateY(-100%);
     grid-gap: 20px;
+    color: black;
     transition: transform .5s ease;
     svg{
         justify-self: end;

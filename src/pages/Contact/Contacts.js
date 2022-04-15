@@ -26,14 +26,14 @@ const Contacts = () => {
                 height="100%"
                 allowfullscreen=""
                 loading="lazy"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15677.472982448919!2d75.99975486295399!3d10.783082377070814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7b976d4bc9669%3A0x6081e9175757a3a1!2sEdappal%2C%20Kerala!5e0!3m2!1sen!2sin!4v1649692971798!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.2838746030684!2d76.00640201480093!3d10.78955649231262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x162baf1285c6923a!2zMTDCsDQ3JzIyLjQiTiA3NsKwMDAnMzAuOSJF!5e0!3m2!1sen!2sin!4v1650027746929!5m2!1sen!2sin"
               ></iframe>
             </div>
           </div>
           <div className="contact-box-form">
             {/* it for from */}
-            <form >
-            {/* <form method="POST" name="curtain-house"> */}
+            <form>
+              {/* <form method="POST" name="curtain-house"> */}
               <input
                 type="text"
                 name="firstname"
@@ -67,7 +67,7 @@ const Contacts = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

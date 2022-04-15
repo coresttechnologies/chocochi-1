@@ -18,7 +18,7 @@ const Footer = () => {
                 <h3>Address</h3>
                 <p>Opposite Govinda theater, Edappal, </p>
                 <p>679582, Kerala,  India</p>
-                <a href='mailto:cafechocochi@gmail.com'>cafechocochi@gmail.com</a>
+                <a href='mailto:contact@chocochi.com'>contact@chocochi.com</a>
                 <br />
                 <a href='tel:+91 7909102588'>+91 7909102588</a>
             </div>

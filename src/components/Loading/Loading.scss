@@ -1,0 +1,20 @@
+.loading-page{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    background:#a1c6c5;
+}
+.loading-gif{
+    max-width: 250px;
+    max-height: 250px;
+    min-width: 100px;
+    min-height: 100px;
+    width: 40%;
+    height: 40vw;
+    background-image: url("../../Images/coffee-time-loading.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,14 +1,15 @@
-import React from 'react'
+import React, { lazy, Suspense } from 'react'
 import Footer from '../../components/footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
-import Card from '../../components/Products Card/Card'
 import './Products.scss'
-import {productsDetails} from './ProductsDetails'
+import {productsDetails} from './ProductsDetails';
+const Card = lazy(()=>import ('../../components/Products Card/Card'));
 
 const Products = () => {
   console.log(productsDetails);
   return (
     <>
+    <Suspense fallback={<h5>Loading...</h5>}>
       <div className='products-page'>
         <Navbar padding={"100px"} />
         {
@@ -18,6 +19,7 @@ const Products = () => {
         }
       </div>
       <Footer />
+      </Suspense>
     </>
   )
 }

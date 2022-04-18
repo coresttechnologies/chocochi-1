@@ -1,21 +1,17 @@
 // forfreelance3@gmail.com
 // Forfreelance@3
 
-// AKfycbwoabGOcHj1zE23oEZ_syUxEam8wvyxIyQJ0ALIipKMwtuN6x480YKXPGuEprT5wHWwYg -- deployment id
-// https://script.google.com/macros/s/AKfycbwoabGOcHj1zE23oEZ_syUxEam8wvyxIyQJ0ALIipKMwtuN6x480YKXPGuEprT5wHWwYg/exec   url
-
 import React, { useRef, useState } from "react";
 import "./Contact.scss";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/footer/Footer";
 import Loading from "../../components/Loading/Loading";
-// import { GoogleSpreadsheet } from 'google-spreadsheet'
 
 const Contacts = () => {
   const [loading,setLoading] = useState(false)
   const formRef = useRef()
   console.log(new FormData(formRef.current));
-  const scriptUrl = "https://script.google.com/macros/s/AKfycbyH_Aaaw_-l9PjNCEx7OCC-9C72Vrzk3LrF5zjo3r3VTASl4tnzgZdIkkOEFnDUektOhQ/exec"
+  const scriptUrl = "https://script.google.com/macros/s/AKfycbzbVv4b4oUcyaB8FPfkmOCxLCABVbZgwKHNj_FcxU4xVFOwEOFVZFJjueAQY2rd9ZWDGQ/exec"
 
     const handleSubmit = (e) =>{
       setLoading(true)

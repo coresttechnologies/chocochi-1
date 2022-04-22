@@ -13,7 +13,7 @@
     }
     color: white;
     .logo{
-        width: 150px;
+        width: 200px;
         object-fit: cover;
     }
 }
@@ -56,6 +56,6 @@
 }
 @media only screen and (max-width:640px) {
     .navbar .logo{
-        width: 100px;
+        width: 150px;
     }
 }

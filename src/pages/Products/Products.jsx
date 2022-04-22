@@ -14,7 +14,7 @@ const Products = () => {
         <Navbar padding={"100px"} />
         {
           productsDetails.map(data=>(
-            <Card img={data.img} item={data.name}/>
+            <Card img={data.img} alt={data.name} item={data.name}/>
           ))
         }
       </div>

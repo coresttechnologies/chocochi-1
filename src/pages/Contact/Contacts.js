@@ -9,9 +9,10 @@ import Loading from "../../components/Loading/Loading";
 
 const Contacts = () => {
   const [loading,setLoading] = useState(false)
+  const messageRef = useRef()
   const formRef = useRef()
   console.log(new FormData(formRef.current));
-  const scriptUrl = "https://script.google.com/macros/s/AKfycbzbVv4b4oUcyaB8FPfkmOCxLCABVbZgwKHNj_FcxU4xVFOwEOFVZFJjueAQY2rd9ZWDGQ/exec"
+  const scriptUrl = "https://script.google.com/macros/s/AKfycbw7xCQM8GDwkUrhMMH0R5DFM6S9duRzVUUrv0rEq3T8_2t35VlzQIN-mBcXhXmnJMAHBg/exec"
 
     const handleSubmit = (e) =>{
       setLoading(true)
@@ -20,6 +21,7 @@ const Contacts = () => {
         fetch(scriptUrl, {method: 'POST', body: new FormData(formRef.current)})
         .then(res => {
             setLoading(false)
+            messageRef.current.value = ""
         })
         .catch(err => console.log(err))
     }
@@ -80,6 +82,7 @@ const Contacts = () => {
                 id=""
                 rows="10"
                 required
+                ref={messageRef}
               ></textarea>
               <button type="submit" name="sendbutton"  className="btn">
                 {loading ? "Loading..." : "SEND"}

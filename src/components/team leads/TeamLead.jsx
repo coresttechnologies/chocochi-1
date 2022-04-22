@@ -1,5 +1,7 @@
 import React from 'react'
-import img1 from '../../Images/heroImg.png'
+import Muhamed_Basheer from '../../Images/owners/Muhamed Basheer Pazhayillath.jpg'
+import Musthafa_Pilassery from '../../Images/owners/Musthafa Pilassery.jpg'
+import Ashraf_Kammilipurayil from '../../Images/owners/Ashraf Kammilipurayil.jpg'
 
 const TeamLead = () => {
   return (
@@ -7,15 +9,15 @@ const TeamLead = () => {
         <h1>Our team leads</h1>
         <div className="image-container-teamlead">
             <div>
-                <img src={img1} alt="" />
+                <img src={Muhamed_Basheer} style={{objectPosition:"bottom"}} alt="" />
                 <p>Muhamed Basheer</p>
             </div>
             <div>
-                <img src={img1} alt="" />
-                <p>Ashraf Kammili </p>
+                <img src={Ashraf_Kammilipurayil} alt="" />
+                <p>Ashraf Kammilipurayil </p>
             </div>
             <div>
-                <img src={img1} alt="" />
+                <img src={Musthafa_Pilassery} alt="" />
                 <p>Musthafa Pilassery </p>
             </div>
         </div>

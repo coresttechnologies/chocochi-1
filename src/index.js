@@ -3,9 +3,16 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const style = {
+  width:"100vw",
+  height:"100vh",
+  display:"grid",
+  placeItems:"center"
+}
+
 ReactDOM.render(
   <React.StrictMode>
-  <h1>Service unavailable!!</h1>
+  <h1 style={style}>Service unavailable!!</h1>
   { /*<App />*/}
   </React.StrictMode>,
   document.getElementById('root')

@@ -7,6 +7,7 @@ const style = {
   width:"100vw",
   height:"100vh",
   display:"grid",
+  padding:"1rem",
   placeItems:"center"
 }
 

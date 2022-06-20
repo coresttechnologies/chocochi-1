@@ -13,8 +13,7 @@ const style = {
 
 ReactDOM.render(
   <React.StrictMode>
-  <h1 style={style}>Service unavailable!!</h1>
-  { /*<App />*/}
+  <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -13,7 +13,6 @@ const Hero = ({buttonHandler}) => {
         <h1>CHOCOCHI</h1>
         <p>
          Chocochi is a premium chocolatier, Chocolate fusion café brand presents a new world of premium chocolates, Authentic coffees, Desserts and more dedicated towards delivering Global chocolate richness within reach.
-
         </p>
         <button onClick={buttonHandler}>Let's Start</button>
       </div>

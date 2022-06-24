@@ -12,10 +12,8 @@ const Hero = ({buttonHandler}) => {
       <div className="left-side">
         <h1>CHOCOCHI</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-          dignissimos quas vitae nostrum, dolorem culpa modi atque officia
-          aperiam dolorum doloribus. Nisi voluptatibus dolorem, ea consequuntur
-          eum dolorum temporibus?
+         Chocochi is a premium chocolatier, Chocolate fusion café brand presents a new world of premium chocolates, Authentic coffees, Desserts and more dedicated towards delivering Global chocolate richness within reach.
+
         </p>
         <button onClick={buttonHandler}>Let's Start</button>
       </div>

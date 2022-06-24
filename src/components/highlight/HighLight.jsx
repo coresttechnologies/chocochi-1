@@ -7,8 +7,13 @@ const HighLight = () => {
             <div className="highlight-container">
                 <div>
                     <h1>highlights</h1>
-                    <p>n publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying
-                        used to demonstrate the visual form of a document or a typeface without relying</p>
+                    <p>
+                        We Craft our unique chocolates with authentic Belgian based Chocolate raw materials ,
+                        Uniqueness in combos of raw chocolates fusion with hot beverages like special African coffee all the way from Kilimanjaro,Tanzania & tea varieties,
+                        Exclusiveness in assorted varieties of premium chocolates ,
+                        Location near to sweet tempting Grill theme food street , and 
+                        Elegant Packaging that reflects our Pure artistry.
+                    </p>
                 </div>
                 <div className='image-contianer-highlight'>
                     <img src={Img} alt="" />

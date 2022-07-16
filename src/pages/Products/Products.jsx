@@ -3,6 +3,7 @@ import Footer from '../../components/footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
 import './Products.scss'
 import {productsDetails} from './ProductsDetails';
+import {productDetails2} from './ProductsDetails';
 const Card = lazy(()=>import ('../../components/Products Card/Card'));
 
 const Products = () => {
@@ -15,6 +16,12 @@ const Products = () => {
         {
           productsDetails.map(data=>(
             <Card img={data.img} alt={data.name} item={data.name}/>
+          ))
+        }
+        <Navbar padding={"100px"} />
+        {
+          productDetails2.map((data,i)=>(
+            <Card img={`Productimg/${i+1}.jpg`} alt={data} item={data}/>
           ))
         }
       </div>

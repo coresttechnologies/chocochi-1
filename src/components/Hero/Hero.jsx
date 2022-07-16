@@ -17,7 +17,7 @@ const Hero = ({buttonHandler}) => {
         <button onClick={buttonHandler}>Let's Start</button>
       </div>
       <div className="right-side">
-          <img className="hero-img" src={heroImg} alt="" />
+          <img className="hero-img" src={"Productimg/13.jpg"} alt="" />
       </div>
     </div>
   );

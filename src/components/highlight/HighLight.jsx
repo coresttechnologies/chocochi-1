@@ -16,7 +16,7 @@ const HighLight = () => {
                     </p>
                 </div>
                 <div className='image-contianer-highlight'>
-                    <img src={Img} alt="" />
+                    <img src={"Productimg/17.jpg"} alt="" />
                 </div>
             </div>
         </div>

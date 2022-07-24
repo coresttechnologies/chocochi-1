@@ -26,7 +26,7 @@ const Footer = () => {
                 <h3>Social Media</h3>
                 <div className='social-media'>
                     <a href="https://www.instagram.com/cafechocochi/"><img src={igImg} alt="" /></a>
-                    <a href=""><img src={wpImg} alt="" /></a>
+                    <a href="https://wa.me/917909102588?text=Hi"><img src={wpImg} alt="" /></a>
                     <a href="https://www.facebook.com/103701765650923"><img src={fbImg} alt="" /></a>
                 </div>
                 <span>©copyright 2021 chocochi. All rights reserved.</span>

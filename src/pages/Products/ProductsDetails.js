@@ -39,52 +39,12 @@ export const productsDetails = [
         img:Prod2
     },
     {
-        name : "Ceremonial gifting box",
-        img:Prod3
-    },
-    {
-        name : "Chocochi Box of 15",
-        img:Prod4
-    },
-    {
-        name : "Chocochi brand color Box",
-        img:Prod5
-    },
-    {
-        name : "Chocochi Brookie",
-        img:Prod6
-    },
-    {
         name : "Chocochi Chocolate Lava Brownie", 
         img:Prod7
     },
     {
         name : "Chocochi chocolate lava brownie with Vanilla Scoop", 
         img:Prod8
-    },
-    {
-        name : "Chocochi Take away Cup", 
-        img:Prod9
-    },
-    {
-        name : "Choco mounded Almond filled Dates", 
-        img:Prod10
-    },
-    {
-        name : "Choco mounded Cookies", 
-        img:Prod11
-    }, 
-    {
-        name : "Choco mounded Dates", 
-        img:Prod12
-    },
-    {
-        name : "Choco mounded Dates", 
-        img:Prod13
-    }, 
-    {
-        name : "Chocolate Assorted Box of 15", 
-        img:Prod14
     },
     {
         name : "Chocolate Delight category", 
@@ -95,60 +55,8 @@ export const productsDetails = [
         img:Prod16
     },
     {
-        name : "Chocolate with Almond fill", 
-        img:Prod17
-    },
-    {
-        name : "Chocolate with Hazelnut fill", 
-        img:Prod18
-    },
-    {
-        name : "Chocolate with Almond fill", 
-        img:Prod19
-    },
-    {
-        name : "Chocolate with Hazelnut fill", 
-        img:Prod20
-    },
-    {
-        name : "Chocolate with Lotus Biscoff filling", 
-        img:Prod21
-    }, 
-    {
-        name : "Corporate Gift Assorted Chocolates", 
-        img:Prod22
-    },
-    {
         name : "Espresso Double Shot", 
         img:Prod23
-    },
-    {
-        name : "Espresso single shot", 
-        img:Prod24
-    },
-    {
-        name : "Hazelnut cream filled chocolate ", 
-        img:Prod25
-    }, 
-    {
-        name : "Kids collection ", 
-        img:Prod26
-    },
-    {
-        name : "Personal gifting Box", 
-        img:Prod27
-    },
-    {
-        name : "White-Choco mounded Cookies", 
-        img:Prod28
-    }, 
-    {
-        name : "White &Milk choco mounded cookies", 
-        img:Prod29
-    },
-    {
-        name : "Zafran milk chocolate", 
-        img:Prod30
     }
 ]
 
@@ -166,24 +74,11 @@ export const productDetails2 = [
 "BOX OF 35",
 "BROOKIE",
 "BROOKIE PACK .200",
-"BROWNIE 80",
-"BROWNIE 100",
-"BROWNIE WITH ICE CREAM-min",
-"CAPUCCINO 100 - 300 ML-min",
-"CHI-UP-min",
-"CHI-UP ",
-"CHOCOCHIPS-min",
-"CHOCOMOND COOKIE-min",
-"CHOCOMOND WAFERS-min",
-"CHOCOMOUNDED DATES-min",
-"DELIGHT-min",
-"ESPRESSO - 70 SINGLE _ DOUBLE - 90-min",
-"ESPRESSO-min",
-"HAMPER - 1725 GRAM-min",
-"HOME CRAFTED (CHOCOCHI)-min",
-"HOT CHOC COMBO-min",
-"HOT CHOCOLATE",
-"HOT CHOCOLATE WITH BROOKIE  -min",
-"HOT CHOCOLATE WITH BROOKIE",
-"HOT CHOC WITH CINNAMON ROLL",
+//13
+"CHI-UP-min",//18
+"CHI-UP ",//19
+"DELIGHT-min",//24
+"HOME CRAFTED (CHOCOCHI)-min",//28
+"HOT CHOCOLATE WITH BROOKIE",//32
+"HOT CHOC WITH CINNAMON ROLL",//33
 ]

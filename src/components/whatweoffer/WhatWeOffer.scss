@@ -1,0 +1,71 @@
+.whatweoffer {
+    width: 100vw;
+    overflow-x: hidden;
+    padding: 100px;
+    display: grid;
+    color: #ffffff;
+    height: auto;
+    background: #fff;
+    @media only screen and (min-width: 1400px) {
+      padding: 100px calc((100vw - 1300px) / 2);
+    }
+    grid-template-columns: 1fr 1fr;
+    .whatweofferimgage {
+      width: 100%;
+      height: auto;
+      background: url('../../../public//Productimg//26.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      box-shadow: 1px 1px 50px rgba(70, 70, 70, 0.295) ;
+      border-radius: 20px 0 0 20px;
+    }
+    .whatweoffercontent {
+      width: 100%;
+      height: auto;
+      border-radius: 0 20px 20px 0;
+      box-shadow: 1px 1px 50px rgba(78, 78, 78, 0.295) ;
+      display: grid;
+      grid-gap: 20px;
+      background: #71113c;
+      padding: 30px;
+      h1 {
+        font-size: 2em;
+        text-align: start;
+        max-width: 80%;
+        @media only screen and(max-width:1100px) {
+          font-size: 2em;
+          word-spacing: 1px;
+          letter-spacing: .5px;
+        }
+      }
+      p {
+        font-size: 15px;
+        opacity: 1;
+      }
+    }
+  }
+  @media only screen and(max-width:1024px) {
+    .whatweoffer {
+      padding: 100px 25px;
+    }
+  }
+  @media only screen and(max-width:768px) {
+    .whatweoffer {
+      grid-template-columns: 1fr;
+      grid-template-rows: 400px auto;
+    }
+    .whatweoffer .whatweofferimgage {
+      border-radius: 10px 10px 0 0px;
+    }
+    .whatweoffer .whatweoffercontent {
+      border-radius: 0px 0px 10px 10px;
+      padding:20px 10px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .whatweoffer .whatweoffercontent whatweoffercontent h1 {
+      font-size: 1.6em;
+    }
+  }
+  

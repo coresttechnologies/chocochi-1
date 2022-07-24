@@ -8,11 +8,11 @@ const HighLight = () => {
                 <div>
                     <h1>Future plans</h1>
                     <p>We are planning to scale up our operations as:</p>
-                    <li>Exclusive Café CHOCOCHI outlets</li>
                     <li>Chocochi Chocolate Kiosk with assorted varieties of unique premium chocolates</li>
+                    <li>Exclusive Café CHOCOCHI outlets</li>
                 </div>
                 <div className='image-contianer-highlight'>
-                    <img src={"Productimg/17.jpg"} alt="" />
+                    <img style={{objectPosition:"bottom"}} src={"Productimg/13.jpg"} alt="" />
                 </div>
             </div>
         </div>

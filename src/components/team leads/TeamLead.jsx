@@ -10,7 +10,7 @@ const TeamLead = () => {
         <div className="image-container-teamlead">
             <div>
                 <img src={Muhamed_Basheer} style={{objectPosition:"bottom"}} alt="" />
-                <p>Muhamed Basheer</p>
+                <p>Muhamed Basheer <br /> Pazhayillath</p>
             </div>
             <div>
                 <img src={Ashraf_Kammilipurayil} alt="" />

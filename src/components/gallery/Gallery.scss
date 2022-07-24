@@ -20,15 +20,14 @@
     height: auto;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     justify-content: center;
     grid-gap: 30px;
     
     .card{
         width: 100%;
-        height: 400px;
+        height: 300px;
         position: relative;
         img{
             height: 100%;

@@ -18,7 +18,7 @@ const Hero = ({buttonHandler}) => {
       <div className="left-side">
         <h1>CHOCOCHI</h1>
         <p>
-        Chocochi is a premium chocolatier, Chocolate fusion café brand under MABCO VENTURES consisting of three foundes presents a new world of premium chocolates, Authentic coffees, Desserts and more dedicated towards delivering <b style={{fontSize:"16px",fontWeight:800}}>Global chocolate richness within reach</b>.
+        Chocochi is a premium chocolatier, chocolate fusion cafe brand presents a new world of premium chocolates, Authentic coffees, Desserts and more dedicated towards delivering <b style={{fontSize:"16px",fontWeight:800}}>Global chocolate richness within reach</b>.
         </p>
         <button onClick={buttonHandler}>Let's Start</button>
       </div>

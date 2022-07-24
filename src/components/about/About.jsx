@@ -17,7 +17,7 @@ const About = ({setValue}) => {
           <img src={aboutImg} alt="" />
         </div>
         <div className="content-container">
-          <p> <b>CHOCOCHI</b>  is a cafe based premium chocolate concept under MABCO VENTURES consisting of three founders Muhamed Basheer,Ashraf Kammili and Musthafa Pilassery </p>
+          <p> Chocochi is a premium chocolatier, Chocolate fusion café brand under MABCO VENTURES consisting of three foundes Muhamed Basheer,Ashraf Kammili and Musthafa Pilassery </p>
           <p> <span>Our Mission - </span> To be the best premium chocolatier , Chocolate fusion cafe brand in India, Middle East and Africa</p>
           <p> <span>Our Vision - </span> To deliver the experience of best ‘Chi’ (The Vital Energy) uniting the Body, Mind and Spirit out of Premium Chocolate Blends globally</p>
         </div>

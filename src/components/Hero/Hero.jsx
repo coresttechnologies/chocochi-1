@@ -7,7 +7,7 @@ const Hero = ({buttonHandler}) => {
   const [first, setfirst] = useState(0)
   useEffect(()=>{
     setInterval(()=>{
-      setfirst(Math.floor(Math.random() * 19))
+      setfirst(Math.floor(Math.random() * 15))
     },5000)
   },[])
   return (

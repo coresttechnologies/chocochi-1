@@ -31,12 +31,8 @@ import Prod30 from '../../Images/product/next/Zafran milk chocolate -min.JPG'
  
 export const productsDetails = [
     {
-        name : "Cafelatte & mini-cinnamo reel",
+        name : "white chocolate & mini-cinnamo roll",
         img:Prod1
-    },
-    {
-        name : "Cappuccino & Chocochi Cinnamon reel",
-        img:Prod2
     },
     {
         name : "Chocochi Chocolate Lava Brownie", 
@@ -51,10 +47,6 @@ export const productsDetails = [
         img:Prod15
     },
     {
-        name : "Chocolate Super Delight Category", 
-        img:Prod16
-    },
-    {
         name : "Espresso Double Shot", 
         img:Prod23
     }
@@ -63,7 +55,6 @@ export const productsDetails = [
 export const productDetails2 = [
 "400 GM HAMPER",
 "1160 GM HAMPER",
-"1420 GM HAMPER ",
 "2650 GM HAMPER",
 "2200 GM HAMPER",
 "BOX 0F 15",
@@ -73,12 +64,11 @@ export const productDetails2 = [
 "BOX OF 24",
 "BOX OF 35",
 "BROOKIE",
-"BROOKIE PACK .200",
+"BROOKIE PACK 200",
 //13
-"CHI-UP-min",//18
-"CHI-UP ",//19
-"DELIGHT-min",//24
-"HOME CRAFTED (CHOCOCHI)-min",//28
+"CHI-UP",//18
+"DELIGHT",//24
+"HOME CRAFTED (CHOCOCHI)",//28
 "HOT CHOCOLATE WITH BROOKIE",//32
 "HOT CHOC WITH CINNAMON ROLL",//33
 ]

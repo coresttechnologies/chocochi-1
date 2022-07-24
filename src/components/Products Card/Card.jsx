@@ -6,7 +6,7 @@ const Card = ({ img, item }) => {
     <div className={item.length > 25 ? " show products-card" : "products-card"}>
       <LazyLoadImage src={img} alt="" effect="blur" />
       <div className="name">
-        <p>{item.length > 25 ? item.slice(0, 25) + "..." : item}</p>
+        <p>{item.length > 20 ? item.slice(0, 20) + "..." : item}</p>
       </div>
       {
         item.length > 25 &&

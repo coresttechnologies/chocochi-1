@@ -1,5 +1,6 @@
 import React, { Suspense, useState } from 'react'
 import About from '../../components/about/About'
+import Details from '../../components/Details'
 import Footer from '../../components/footer/Footer'
 import FuturePlans from '../../components/future plans/FuturePlans'
 import Hero from '../../components/Hero/Hero'
@@ -26,6 +27,7 @@ const Home = () => {
         <Gallery/>
       </Suspense>
       <WhatWeOffer />
+      <Details/>
       <FuturePlans />
       <HighLight />
       <Footer />
